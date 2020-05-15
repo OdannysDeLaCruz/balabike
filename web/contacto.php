@@ -37,19 +37,19 @@
 							<a class="nav-link text-warning d-none d-lg-block" href="#">|</a>
 						</li>	    
 					  	<li class="nav-item">		  
-							<a class="nav-link text-white" href="productos.html">PRODUCTOS</a>
+							<a class="nav-link text-white" href="productos.php">PRODUCTOS</a>
 					  	</li>
 					  	<li class="nav-item">
 							<a class="nav-link text-warning d-none d-lg-block" href="#">|</a>
 					  	</li>
 					  	<li class="nav-item">
-							<a class="nav-link text-white" href="quienes-somos.html">¿QUÍENES&nbsp;SOMOS?</a>
+							<a class="nav-link text-white" href="quienes-somos.php">¿QUÍENES&nbsp;SOMOS?</a>
 					  	</li>
 					  	<li class="nav-item">
 							<a class="nav-link text-warning d-none d-lg-block" href="#">|</a>
 					  	</li>
 					  	<li class="nav-item">
-							<a class="nav-link pagina-activa" href="contacto.html">CONTACTENOS</a>
+							<a class="nav-link text-white" href="contacto.php">CONTACTENOS</a>
 					  	</li>
 				 	</ul>           	
 				</nav>

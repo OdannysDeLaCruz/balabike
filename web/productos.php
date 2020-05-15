@@ -37,19 +37,19 @@
 							<a class="nav-link text-warning d-none d-lg-block" href="#">|</a>
 						</li>	    
 					  	<li class="nav-item">		  
-							<a class="nav-link pagina-activa" href="productos.html">PRODUCTOS</a>
+							<a class="nav-link text-white" href="productos.php">PRODUCTOS</a>
 					  	</li>
 					  	<li class="nav-item">
 							<a class="nav-link text-warning d-none d-lg-block" href="#">|</a>
 					  	</li>
 					  	<li class="nav-item">
-							<a class="nav-link text-white" href="quienes-somos.html">¿QUÍENES&nbsp;SOMOS?</a>
+							<a class="nav-link text-white" href="quienes-somos.php">¿QUÍENES&nbsp;SOMOS?</a>
 					  	</li>
 					  	<li class="nav-item">
 							<a class="nav-link text-warning d-none d-lg-block" href="#">|</a>
 					  	</li>
 					  	<li class="nav-item">
-							<a class="nav-link text-white" href="contacto.html">CONTACTENOS</a>
+							<a class="nav-link text-white" href="contacto.php">CONTACTENOS</a>
 					  	</li>
 				 	</ul>           	
 				</nav>
@@ -65,7 +65,7 @@
 				<section class="col-6 col-md-4 col-lg-3 d-flex justify-content-center align-items-center p-0">
 					<!-- Producto -->
 					<div class="productosbb">
-						<a href="detalle-bicicleta.html">
+						<a href="detalle-bicicleta.php">
 							<img class="imagen" src="imagenes/bicicleta.jpg" alt="">
 						</a>
 						<h2 class="titulo">Titulo del producto</h2>
@@ -75,7 +75,7 @@
 				<section class="col-6 col-md-4 col-lg-3 d-flex justify-content-center align-items-center p-0">
 					<!-- Producto -->
 					<div class="productosbb">
-						<a href="detalle-bicicleta.html">
+						<a href="detalle-bicicleta.php">
 							<img class="imagen" src="imagenes/bicicleta.jpg" alt="">
 						</a>
 						<h2 class="titulo">Titulo del producto</h2>
@@ -85,7 +85,7 @@
 				<section class="col-6 col-md-4 col-lg-3 d-flex justify-content-center align-items-center p-0">
 					<!-- Producto -->
 					<div class="productosbb">
-						<a href="detalle-bicicleta.html">
+						<a href="detalle-bicicleta.php">
 							<img class="imagen" src="imagenes/bicicleta.jpg" alt="">
 						</a>
 						<h2 class="titulo">Titulo del producto</h2>
@@ -95,7 +95,7 @@
 				<section class="col-6 col-md-4 col-lg-3 d-flex justify-content-center align-items-center p-0">
 					<!-- Producto -->
 					<div class="productosbb">
-						<a href="detalle-bicicleta.html">
+						<a href="detalle-bicicleta.php">
 							<img class="imagen" src="imagenes/bicicleta.jpg" alt="">
 						</a>
 						<h2 class="titulo">Titulo del producto</h2>
@@ -105,7 +105,7 @@
 				<section class="col-6 col-md-4 col-lg-3 d-flex justify-content-center align-items-center p-0">
 					<!-- Producto -->
 					<div class="productosbb">
-						<a href="detalle-bicicleta.html">
+						<a href="detalle-bicicleta.php">
 							<img class="imagen" src="imagenes/bicicleta.jpg" alt="">
 						</a>
 						<h2 class="titulo">Titulo del producto</h2>
@@ -115,7 +115,7 @@
 				<section class="col-6 col-md-4 col-lg-3 d-flex justify-content-center align-items-center p-0">
 					<!-- Producto -->
 					<div class="productosbb">
-						<a href="detalle-bicicleta.html">
+						<a href="detalle-bicicleta.php">
 							<img class="imagen" src="imagenes/bicicleta.jpg" alt="">
 						</a>
 						<h2 class="titulo">Titulo del producto</h2>
@@ -125,7 +125,7 @@
 				<section class="col-6 col-md-4 col-lg-3 d-flex justify-content-center align-items-center p-0">
 					<!-- Producto -->
 					<div class="productosbb">
-						<a href="detalle-bicicleta.html">
+						<a href="detalle-bicicleta.php">
 							<img class="imagen" src="imagenes/bicicleta.jpg" alt="">
 						</a>
 						<h2 class="titulo">Titulo del producto</h2>
@@ -135,7 +135,7 @@
 				<section class="col-6 col-md-4 col-lg-3 d-flex justify-content-center align-items-center p-0">
 					<!-- Producto -->
 					<div class="productosbb">
-						<a href="detalle-bicicleta.html">
+						<a href="detalle-bicicleta.php">
 							<img class="imagen" src="imagenes/bicicleta.jpg" alt="">
 						</a>
 						<h2 class="titulo">Titulo del producto</h2>
