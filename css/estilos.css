@@ -1,0 +1,514 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root {
+  --color-principal: #FFC107;
+}
+ 
+* {
+	font-family: 'Roboto', sans-serif;
+}
+.pagina-activa {
+	color: var(--color-principal);
+}
+.menu-principal {
+	padding-bottom: 0;
+}
+.menu-principal-navbar {
+	display: flex;
+	justify-content: center;
+	list-style: none;
+	padding: 0 !important;
+	margin-bottom: 0px;
+}
+.menu-principal-navbar li {
+	margin: 0;
+}
+.banner {
+	padding: 0px;
+	display: inline-block;
+	width: 100%;
+	position: relative;
+	z-index: 50;
+}
+
+.banner img {
+	width: 100%;
+	margin: auto;
+}
+
+.principal {
+	margin-top: 100px;
+	padding: 15px;
+	min-height: 100vh;
+}
+
+.descripcion {
+	max-width: 700px;
+	margin: 20px auto 0px;
+}
+
+.descripcion > h1 {
+	text-align: center;
+	font-size: 21px;
+	font-weight: 800;
+	margin-bottom: 30px;
+}
+
+.descripcion > p {
+	text-align: justify;
+	font-size: 15px;
+	font-weight: 600;
+	padding: 0 20px;
+	margin-bottom: 20px;
+}
+
+/* Estilos de seccion de productos destacados pagina inicio */
+.destacados, .seccion-productosbb {
+	max-width: 100%;
+	margin:auto;
+	padding: 10px;
+}
+.seccion-productosbb {
+	max-width: 1200px;
+	margin:auto;
+	padding: 10px;
+}
+.destacados-titulo,
+.seccion-productosbb-titulo {
+	text-align: center;
+	font-size: 21px;
+	font-weight: 800;
+	margin-bottom: 40px;
+}
+.seccion-productosbb-titulo {
+	text-align: left;
+	font-size: 20px;
+	font-weight: 900;
+}
+
+.principal > h1 {
+	text-align: left;
+	margin-left: 25px;
+	margin-bottom: 40px;
+	font-size: 30px;
+}
+
+.principal-contenedor-productos > h2 {
+	width: 100%;
+	margin-top: 40px;
+	margin-bottom: 80px;
+	font-size: 20px;	
+}
+
+.destacados-inicio {
+	align-items: center;
+}
+.destacados-inicio-dir {
+	width: 20px;
+	height: 45px;
+	color: #ccc;
+	cursor: pointer;
+	margin-bottom: 80px;
+}
+.destacados-inicio-dir:hover {
+	color: #666;
+}
+.destacados-inicio {
+	display: flex;
+	justify-content: center;
+}
+
+.seccion-productosbb-principal {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.destacados-inicio-producto, 
+.productosbb {
+	width: 230px;
+	padding: 10px;
+	margin: 0 40px 30px 40px;
+}
+.destacados-inicio-producto {
+	width: 230px;
+	padding: 10px;
+	margin: 10px;
+}
+.productosbb {
+	width: 230px;
+	padding: 10px;
+	margin: 15px;
+}
+
+.destacados-inicio-producto > a > .imagen, 
+.productosbb > a > .imagen {
+	width: 100%;
+}
+
+.destacados-inicio-producto > .titulo,
+.productosbb > .titulo {
+	text-align: center;
+	font-size: 15px;
+	margin-top: 15px;
+}
+
+.destacados-inicio-producto > .precio,
+.productosbb > .precio {
+	text-align: center;
+	font-size: 13px;
+}
+
+/*--Estilos de pagina quienes somos--*/
+
+.quienes-somos, 
+.mision-vision {
+	background-size: cover;
+	background-repeat: no-repeat;
+	max-width: 1200px;
+	margin: 0px auto;	
+}
+.quienes-somos  {
+	background: url(../fotosdescktop/historia.png);
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 200px 20px;
+	margin-top: 30px;
+}
+.mision-vision  {
+	background: url(../fotosdescktop/mision-vision.png);
+	background-size: cover;
+	padding: 50px 20px;
+	margin-bottom: 30px;
+}
+.quienes-somos-texto,
+.mision-vision-texto {
+	background: rgba(0,0,0, 0.5);
+	padding: 40px;
+}
+.quienes-somos-texto {
+	max-width: 850px;	
+}
+.mision-vision-texto {
+	margin-bottom: 250px;
+	max-width: 500px;
+	align-self: flex-end;
+}
+.quienes-somos-texto p,
+.mision-vision-texto p {
+	text-align: justify;
+	font-size: 16px;
+	margin-bottom: 20px;
+	color: #ffffff;
+}
+.mision-vision-texto h2 {
+	text-align: center;
+	font-size: 20px;
+	color: #ffffff;
+	font-weight: 700;
+}
+
+/*--Fin estilos de pagina quienes somos--*/
+
+/*--Estilos pagina de contacto--*/
+.contacto {
+	background: url(../fotosdescktop/contactenos.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 200px 20px;
+	width: 100%;
+}
+.contacto-form {
+	position: relative;
+	margin: auto;
+	max-width: 500px;
+	background: rgba(0,0,0, 0.5);
+	padding: 50px;
+	padding-bottom: 80px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.contacto-form h1 {
+	color: #fcc107;
+	font-size: 17px;
+	padding-bottom: 30px;
+}
+.contacto-form input,
+.contacto-form textarea {
+	width: 100%;
+	margin-bottom: 50px;
+	color: #fff;
+	font-size: 13px;
+	background: none;
+	border: none;
+	border-bottom: 2px solid #fff;
+	text-transform: uppercase;
+}
+.contacto-form input:focus {
+	outline: none;
+}
+.contacto-form input::placeholder,
+.contacto-form textarea::placeholder { 
+	color: #fff;
+}
+.contacto-form .btn-enviar {
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
+	border: none;
+	background: #333;
+	font-size: 15px;
+	padding: 20px;
+	color: var(--color-principal);
+	position: absolute;
+}
+/*--Fin estilos pagina de contacto--*/
+
+/*--Seccion de detalles de productos de pagina de detalles--*/
+
+.carousel {
+	 /*height: 430px;*/
+}
+.carousel-indicators  {
+	/*margin-top: 100px;*/
+	margin-bottom: 0px;
+}
+.carousel-indicators > li {
+	background: #333;
+	width: 10px !important;
+	height: 10px !important;
+	border: none;
+	border-radius: 50%;
+}
+.carousel-inner {
+	width: 90%;
+	margin: auto;
+}
+.carousel-control-prev,
+.carousel-control-next {
+	width: 30px;
+}
+.carousel-control-next-icon {
+	background: none;
+	height: 40px;
+}
+
+/*--Detalles de la bicicleta--*/
+.detalle-bicicleta {
+	padding: 40px;
+}
+.detalle-bicicleta-titulo {
+	font-size: 22px;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+.detalle-bicicleta-precio {
+	font-size: 16px;
+	font-weight: 500;
+}
+.detalle-bicicleta-form {
+	margin-top: 40px;
+	margin-bottom: 50px;
+}
+.detalle-bicicleta-form-talla {
+
+}
+.detalle-bicicleta-form-talla span {
+	font-size: 15px;
+	font-weight: 500;
+}
+.detalle-bicicleta-form-talla .tallas {
+	display: flex;
+	align-items: center;
+	list-style: none;
+	padding-left: 0;
+	margin-bottom: 30px;
+}
+.detalle-bicicleta-form-talla .tallas > li {
+	width: 35px;
+	height: 35px;
+	font-size: 15px;
+	border: 1.4px solid #ccc;
+	margin-right: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.detalle-bicicleta-form-cantidad {
+	width: 50px;
+	height: 50px;
+	border: 1px solid #000;
+	text-align: center;
+	padding-left: 10px;
+	margin-right: 15px;
+}
+.detalle-bicicleta-form-btncomprar {
+	height: 50px;
+	background: #333;
+	color: var(--color-principal);;
+	width: 100%;
+	border: none;
+}
+.detalle-bicicleta-detalles h2 {
+	font-size: 22px;
+	margin-bottom: 15px;
+}
+.detalle-bicicleta-detalles ul {
+	list-style: none;
+	padding-left: 0;
+}
+.detalle-bicicleta-detalles strong {
+	font-weight: 700;
+}
+/*--Fin seccion de detalles de productos de pagina de detalles--*/
+
+footer {
+	background: #333333;
+	padding-right: 0;
+	padding-left: 0;
+	padding: 20px;
+}
+.footer-redes img {
+	height: 20px;
+	margin: 0 15px;
+}
+.footer-text {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	text-align: right;
+}
+.footer-text a {
+	color: var(--color-principal);
+	font-size: 18px;
+	margin-left: 15px;
+}
+
+
+@media (max-width: 575px) {
+	.carousel-inner {
+		width: 80%;
+		margin: auto;
+	}
+	.destacados-inicio-producto {
+		width: 140px;
+		padding: 10px;
+		margin: 5px;
+	}
+	.destacados-inicio-producto > .titulo {
+    	font-size: 12px;
+    	margin-top: 15px; 
+	}
+	.destacados-inicio-producto > .precio {
+	    font-size: 12px;
+	}
+	.destacados-inicio-dir {
+		width: 12px;
+		height: 25px;
+	}
+	/*--Pagina de quienes somos--*/
+	.quienes-somos  {
+		background: url(../fotosamrtphone/historia.png);
+		background-size: cover;
+		background-position: right;
+		background-repeat: no-repeat;
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+	.mision-vision  {
+		background: url(../fotosamrtphone/mision-vision.png);
+		background-size: cover;
+		background-position: right;
+		background-repeat: no-repeat;
+		padding-top: 50px;
+	}
+	.contacto {
+		background: url(../fotosamrtphone/contactenos.png);
+		background-size: cover;
+		background-position: 0 0;
+		background-repeat: no-repeat;
+		padding: 200px 20px;
+		width: 100%;
+	}
+}
+@media (min-width: 576px) and (max-width: 767px) {
+	.destacados-inicio-producto {
+		width: 200px;
+		padding: 10px;
+		margin: 5px;
+	}
+	.destacados-inicio-producto > .titulo {
+    	font-size: 14px;
+    	margin-top: 15px; 
+	}
+	.destacados-inicio-producto > .precio {
+	    font-size: 13px;
+	}
+	.destacados-inicio-dir {
+		width: 14px;
+		height: 35px;
+	}
+}
+
+@media (max-width: 991px) {
+	.btn-nav-ba-principal {
+		background: none;
+		border: none;
+	}
+	.btn-nav-ba-principal img {
+		height: 20px;
+		width: 28px;
+	}
+	.menu-principal {
+		background: blue;
+	}
+	.menu-principal-navbar {
+		background: #333;
+		position: fixed;
+		padding: 20px;
+		left: -200px;
+		height: 100%;
+		display: flex;
+		justify-content: flex-start;
+		flex-direction: column;
+		z-index: 1000;
+		top: 0px;
+	}
+	.menu-principal-navbar li {
+		margin-bottom: 15px;
+	}
+	.menu-principal-navbar li a:focus {
+		color: var(--color-principal);
+	}
+	.btnCerrarMenuPrincipal {
+		font-size: 20px;
+		color: var(--color-principal);
+	    width: 200px;
+	    height: 70px;
+	    display: flex;
+	    justify-content: flex-end;
+	    align-items: center;
+	    margin-bottom: 10px;
+	    padding-right: 30px;
+	}
+	.form-buscar {
+		z-index: 900;
+		padding: 5px;
+		position: absolute;
+		right: 20px;
+		display: flex;
+	}
+	/*--Pagina de detalles--*/
+	.seccion-detalles-productos {
+		max-width: 900px;
+		padding: 30px;
+		margin-top: 30px;
+	}
+}
