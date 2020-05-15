@@ -15,8 +15,8 @@
 <body>
 	<header class="mx-0 py-3 container-fluid" style="background: #333333">
 		<section class="row m-auto p-0 d-flex flex-row-reverse flex-lg-row">
-			<section class="col-8 col-md-8 col-lg-4 py-2 d-flex align-items-center">
-				<a href="index.php">
+			<section class="col-8 col-md-8 col-lg-4 py-2 d-flex align-items-center pl-0 pl-md-3">
+				<a href="index.html">
 					<img src="imagenes/bbikeb.png" style="max-width: 60%; width: 350px" alt="...">
 				</a>
 			</section>
@@ -37,19 +37,19 @@
 							<a class="nav-link text-warning d-none d-lg-block" href="#">|</a>
 						</li>	    
 					  	<li class="nav-item">		  
-							<a class="nav-link text-white" href="productos.php">PRODUCTOS</a>
+							<a class="nav-link text-white" href="productos.html">PRODUCTOS</a>
 					  	</li>
 					  	<li class="nav-item">
 							<a class="nav-link text-warning d-none d-lg-block" href="#">|</a>
 					  	</li>
 					  	<li class="nav-item">
-							<a class="nav-link text-white" href="quienes-somos.php">¿QUÍENES&nbsp;SOMOS?</a>
+							<a class="nav-link pagina-activa" href="quienes-somos.html">¿QUÍENES&nbsp;SOMOS?</a>
 					  	</li>
 					  	<li class="nav-item">
 							<a class="nav-link text-warning d-none d-lg-block" href="#">|</a>
 					  	</li>
 					  	<li class="nav-item">
-							<a class="nav-link text-white" href="contacto.php">CONTACTENOS</a>
+							<a class="nav-link text-white" href="contacto.html">CONTACTENOS</a>
 					  	</li>
 				 	</ul>           	
 				</nav>
